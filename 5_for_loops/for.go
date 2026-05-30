@@ -20,4 +20,9 @@ func main() {
 	for j := 0; j < 3; j++ {
 		fmt.Println(j)
 	}
+
+	//range
+	for k := range 10 {
+		fmt.Println(k)
+	}
 }
