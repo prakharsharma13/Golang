@@ -9,4 +9,15 @@ func main() {
 		fmt.Println(i)
 		i = i + 1
 	}
+
+	//infinite loop
+	// for {
+	// 	fmt.Println("1")
+	// }
+
+	//for loop
+
+	for j := 0; j < 3; j++ {
+		fmt.Println(j)
+	}
 }
