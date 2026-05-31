@@ -15,4 +15,8 @@ func main() {
 
 	arr := [3]int{1, 2, 3}
 	fmt.Println(arr)
+
+	//2d arrays
+	twoD := [2][3]int{{1, 2, 3}, {4, 5, 6}}
+	fmt.Println(twoD)
 }
