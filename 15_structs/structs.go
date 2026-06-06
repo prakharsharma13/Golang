@@ -12,6 +12,10 @@ type order struct {
 	createdAt time.Time
 }
 
+func (o *order) changeStatus(status string) {
+	o.status = status
+}
+
 func main() {
 	myorder := order{
 		id:        "1234",
